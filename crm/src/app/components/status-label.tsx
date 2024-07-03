@@ -19,6 +19,9 @@ export default function StatusLabel({
   status,
   disabled,
 }: StatusLabelProps) {
+
+  // console.log(process.env.NEXT_PUBLIC_CRM_SECRET_KEY);
+  
   return (
     <div
       className={clsx(
